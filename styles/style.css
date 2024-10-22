@@ -1,0 +1,252 @@
+.header {
+    text-align: right;
+    margin: 10px 0px 10px 0px;
+}
+
+.header a {
+    color: gold;
+    background-color: rgb(188, 65, 225, 0.7);
+    border: solid 3px rgb(188, 65, 225, 0.2);
+    border-radius: 13px;
+    padding: 3px 10px 3px 10px;
+}
+
+body {
+    background: dimgray url("../images/space.jpg");
+}
+
+h1 {
+    color: gold;
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0, 0.6);
+    padding: 3px 10px 3px 10px;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(65, 105, 225, 0.7);
+    border: solid 3px rgb(65, 105, 225, 0.2);
+    border-radius: 13px 13px 0px 0px;
+    color: gold;
+    margin: -3px -3px 0px -3px;
+}
+
+img {
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content-left-main {
+    width: 50%;
+    background-color: rgb(255, 0, 0, 0.6);
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.content-right-main {
+    display: flex;
+    width: 50%;
+}
+
+.content-left-main a {
+    color: white;
+    font-style: italic;
+}
+
+.content-left-main li {
+    color: white;
+    margin-left: 0px;
+}
+
+h3 {
+    color: white;
+    margin: 10px 0px 0px 10px;
+}
+
+.content-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 59%;
+    padding: 0px 3px 0px 3px;
+}
+
+.content-right {
+    display: flex;
+    width: 40%;
+}
+
+.info1 {
+    color: white;
+    background-color: rgb(255, 0, 0, 0.6);
+    width: 48%;
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 48%;
+    margin-left: 2%;
+}
+
+.info3 {
+    color: white;
+    background-color: rgb(255, 0, 0, 0.6);
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    margin: 0px -3px 0px -3px;
+}
+
+.info4 {
+    color: white;
+    background-color: rgb(255, 0, 0, 0.6);
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    margin: 20px -3px 0px -3px;
+}
+
+h2.link {
+    text-align: justify;
+    background-color: rgb(188, 65, 225, 0.7);
+    border: solid 3px rgb(188, 65, 225, 0.2);
+    border-radius: 13px;
+    color: gold;
+    margin: 30px -3px 0px -3px;
+}
+
+a {
+    color: red;
+}
+
+.container {
+    background-color: rgb(65, 105, 225, 0.7);
+    border: solid 3px rgb(65, 105, 225, 0.2);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 13px;
+}
+
+.container img {
+    width: 200px;
+}
+
+.container-2 {
+    background-color: rgb(188, 65, 225, 0.7);
+    border: solid 3px rgb(188, 65, 225, 0.2);
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-radius: 13px;
+}
+
+.container-3 {
+    background-color: green;
+    border: solid white 3px;
+    border-radius: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border-radius: 13px;
+    margin: 3px;
+}
+
+.container-4 {
+    background-color: white;
+    border: solid black 3px;
+    padding: 10px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blue {
+    border: solid blue 3px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#red {
+    border: solid red 3px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 120px;
+    right: 20px;
+}
+
+#green {
+    border: solid green 3px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+#cat {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 500px;
+    left: 1240px;
+}
+
+#rebels {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 500px;
+    left: 11px;
+    background-color:aquamarine;
+}
