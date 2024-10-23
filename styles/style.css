@@ -84,6 +84,10 @@ h3 {
     margin: 10px 0px 0px 10px;
 }
 
+p {
+    color: blueviolet;
+}
+
 .content-left {
     display: flex;
     align-items: flex-start;
@@ -238,15 +242,15 @@ a {
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 500px;
-    left: 1240px;
+    bottom: 0;
+    right: 0;
 }
 
 #rebels {
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 500px;
-    left: 11px;
+    bottom: 0;
+    left: 0;
     background-color:aquamarine;
 }
