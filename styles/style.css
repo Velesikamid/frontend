@@ -48,7 +48,7 @@ img {
     flex-direction: column;
 }
 
-.content{
+.content {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -84,8 +84,8 @@ h3 {
     margin: 10px 0px 0px 10px;
 }
 
-p {
-    color: blueviolet;
+.my-color {
+    color: white;
 }
 
 .content-left {
@@ -252,5 +252,5 @@ a {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color:aquamarine;
+    background-color: aquamarine;
 }
