@@ -72,3 +72,21 @@ img {
 a {
     color: white;
 }
+
+form {
+    color: gold;
+    border: solid 3px rgb(255, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0, 0.6);
+    padding: 3px 10px 3px 10px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+form legend {
+    font-size: 30px;
+}
+
+pre {
+    display: inline;
+}

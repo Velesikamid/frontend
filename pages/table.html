@@ -74,6 +74,26 @@
             </td>
         </tr>
     </table>
+
+    <form>
+        <fieldset>
+            <legend>Добавить строку</legend>
+            <label for="number"><pre>Порядковый номер: </pre></label>
+            <input type="number" id="number" name="number" min="6" max="100" value="6" required><br>
+            <label for="photo"><pre>Фото: </pre></label>
+            <input type="file" id="photo" name="photo" required><br>
+            <label for="name"><pre>Имя: </pre></label>
+            <input type="text" id="name" name="name" value="Палпатин / Дарт Сидиус" required><br>
+            <label for="title"><pre>Титул: </pre></label>
+            <input type="text" id="title" name="title" value="Император" required><br>
+            <label for="location"><pre>Местоположение приёмной: </pre></label>
+            <input type="text" id="location" name="location" value="Дворец Сената на Корусанте" required size="30"><br>
+            <label for="contacts"><pre>Контакты: </pre></label>
+            <input type="url" id="contacts" name="contacts" value="https://starwars.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BB%D0%BF%D0%B0%D1%82%D0%B8%D0%BD?so=search" required size="100">
+            <br><br>
+            <input type="submit" value="Добавить">
+        </fieldset>
+    </form>
 </body>
 
 </html>
