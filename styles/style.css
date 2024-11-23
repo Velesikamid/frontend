@@ -12,10 +12,6 @@ body>nav>div>a>img {
     max-height: 800px;
 }
 
-.container.mt-3>h2 {
-    text-align: center;
-}
-
 .card-img-top {
     height: auto;
     max-height: 30rem;
@@ -41,4 +37,29 @@ body>nav>div>a>img {
 
 .alert {
     margin: 70px 10px 10px 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.card {
+    height: 600px;
+    overflow-y: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fact {
+    height: auto;
+}
+
+.fact>img {
+    width: 100%;
 }
