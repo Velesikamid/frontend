@@ -20,13 +20,13 @@ export var Transport;
             return this._mark;
         }
         set mark(mark) {
-            this._mark = mark.toUpperCase();
+            this._mark = mark;
         }
         get model() {
             return this._model;
         }
         set model(model) {
-            this._model = model.toUpperCase();
+            this._model = model;
         }
         get yearRelease() {
             return this._yearRelease;
@@ -68,11 +68,11 @@ export var Transport;
         }
         printInfo() {
             console.log(`
-                Mark: ${this._mark}
-                Model: ${this._model}
-                Year of release: ${this._yearRelease}
-                VIN: ${this._VIN}
-                Registration number: ${this._registrationNumber}
+                Mark: ${this.mark}
+                Model: ${this.model}
+                Year of release: ${this.yearRelease}
+                VIN: ${this.VIN}
+                Registration number: ${this.registrationNumber}
                 `);
         }
     };

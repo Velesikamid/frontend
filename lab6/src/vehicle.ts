@@ -36,7 +36,7 @@ export namespace Transport {
             return this._mark;
         }
         set mark(mark: string) {
-            this._mark = mark.toUpperCase();
+            this._mark = mark;
         }
 
         @upper
@@ -44,7 +44,7 @@ export namespace Transport {
             return this._model;
         }
         set model(model: string) {
-            this._model = model.toUpperCase();
+            this._model = model;
         }
 
         get yearRelease() {
@@ -96,11 +96,11 @@ export namespace Transport {
         printInfo(): void {
             console.log(
                 `
-                Mark: ${this._mark}
-                Model: ${this._model}
-                Year of release: ${this._yearRelease}
-                VIN: ${this._VIN}
-                Registration number: ${this._registrationNumber}
+                Mark: ${this.mark}
+                Model: ${this.model}
+                Year of release: ${this.yearRelease}
+                VIN: ${this.VIN}
+                Registration number: ${this.registrationNumber}
                 `
             );
         }
